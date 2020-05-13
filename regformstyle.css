@@ -1,0 +1,95 @@
+
+
+
+body
+{
+	
+	margin:0;
+	padding:0;
+	background-image:url(bg.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 950px;
+}
+.reg
+{
+	
+	width:50%;
+	margin:auto;
+	border:1px solid white;
+	border-radius:3px;
+	padding:25px;
+	background-color:rgb(0,0,0,0.5);
+}
+label
+{
+	color:white;
+	font-size:16px;
+	font-family:sans-serif;
+	font-style:italic;
+}
+#name
+{
+	width:300px;
+	padding:5px;
+	border:none;
+	border-bottom:2px solid white;
+	background:none;
+	outline:0;
+}
+#code{
+	padding:3px;
+	border:none;
+	background:none;
+	color:white;
+	border-bottom:2px solid;
+}
+#mnum
+{
+	width:250px;
+	padding:3px;
+	border:none;
+	background:none;
+	outline:0;
+	border-bottom:2px solid white;
+	
+}
+#code
+{
+	padding:3px;
+	border:none;
+	background:none;
+	outline:0;
+	border-bottom:2px solid white;
+}
+#male
+{
+	color:white;
+	font-size:18px;
+}
+#depart
+{
+	color:white;
+	width:300px;
+	padding:3px;
+	border:none;
+	background:none;
+	outline:0;
+	border-bottom:2px solid white;
+}
+#sub{
+	border: none;
+	outline:none;
+	height:40px;
+	background:#fb2525;
+	color:#fff;
+	font-size:16px;
+	border-radius:5px;
+	font-family:sans-serif;
+	
+}
+.reg input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#ffc107;
+	color:000;
+}
